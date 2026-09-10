@@ -3,28 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-</head>
-<body>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="RESTORE">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#FBFAF7">
-<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAyuSURBVHhe7Z35d09nHsf7x8wvc1q1dKpKa+jY90QIIQQjao01tY1llDK0RTmqVAVjX9taiiKDWg8dTi3DmVGKSGKJLLJ+P3PfT1wT6ZOjX987yb2f+/6c8zo4h/t8vl8vj+f5PMt9pXlSwriWKUlb3k3qTkiggcevOD/Z22ZIiji/ICTQwGMIDbPl3aQEQgINPKbQRA0UmqiCQhNVUGiiCgpNVEGhiSooNFEFhSaqoNBEFRSaqIJCE1VQaKIKCk1UQaGJKig0UQWFJqqg0EQVFJqogkITVVBoogoKTVRBoYkqKDRRBYUmqqDQRBUUmqiCQhNVUGiiCgpNVEGhiSooNFEFhSaqoNBEFRSaqIJCE1VQaKIKCk1UQaGJKig0UQWFJqqg0EQVFJqogkITVVBoogoKTVRBoYkqKDRRBYUmqqDQRBWhFrq5w1s9usob8Z3kD3XAm907GxondDF5NE2Mk2a94uWd3t2t+ZIXE2qhIU/CqPdl0OQJMmDiuFol5YOxkjwhTZLGjpTE0cOk69BB0rJfL2nq5PSmI3j9Lu3k9S5tpWG3DkZ65Gr7DOR5Qiv0O0ndpVFcR/nu6GFBlJY8qTXKSvFjkTx5UiCFhY8lP/+R5D7IkZu3f5aLV36SzFPHZfPuXbI440uZtGCu9Boz3PTaDbq2NzTp2c36mQiFloPHMo3QkfKS2qeiVMRQ5mRQ7lBhcqkeRUX5cvn6Fdm+f7dM+niutB2U7IjdzgyVODx5ntALvf9pD41e04+UlxVXil8lsnKyZOu+b82wBWNxDEsodiUU2udCVweCuz15mfPzY2dPyejZM56NtZv36WH9vGGBQgdM6Kpg2FIZEdmTeUg6DRlgJpJh7q0pdICFdql4KnZWzj0ZP3eWGV+jWmL73Nqh0AqEdqmMiCxbn2GqIahr2z67Zii0IqFBxFRMRFZt3WjG1WGrX1NoZUIDtyqycPUKeb1zW+vn1wqFVig0QE9dUV4mY2bPkPrOmBrL/LbvQRsUWqnQAHE36460HdhXGvfoav0etEGhFQsNELsO7HXG0+1DUc6j0B4KjUWPiheA3+Nie4bXoKRXXlYiAyaNM5/X9l1ogkJ7KLSZjEXKaqbGPRsV/1fBEficjeKwRG7/PrRAoT0QGr0gmLV0odkOOnDS+BoZOmOyjJ83S6Ytmi/LN6yVA8cy5catG04GEZMHnmNrIxYwQSwqzDdbZRsndLZ+H1qg0B4Jjd65X/oY+X2798wuuBpx2mzUrYNZ+EBJDTm0SE6UCfM+lCOnjlf25I7cZaVFv2onFhCLMlaafda270MLFNpDoVOnfmCEtbVXE5ioYUUPgkO2sR/9VbJzs2POqTqIk+fOmA1MmieHFLqOha4KRKvXqY30TBsq93LuOVl511NLpFxy72dLx9QU1QcEKLSPhHbBjrnBU9OlsLDA8bDU2ma0VJSVmOHMiJlTzee2tasBCu1DocGrHVvJul1bY86tKogPly5SPY6m0D4VGmPd+BGp8jj/kUScntXWbrQgVm3ZYMbrtjY1QKF9KjTG0zhedfL8mZjzc0Fs2/et2YVna1MDFNqnQgMMDZas+yrm/FwQuw8foNAaCYLQGBqgPo3wYiURcfB4pvO5KbQ6giA08hs+c4oZQ6MNW9vRgPjm0H720BoJgtBYWfzzlHQpd9rAgVhb29GAWP/Ndk4KNRIEodGTjpo1zSyKYKeere1oQHyxcS2F1khQxtCTP54bc36V4D4PkemLFlBojQRBaFQ5lnpU5UB+JSWFkjw+zdS4be1pgEL7VGhTh3bEO3HudMz5Aey5vn33F2nl/D2/zb0c+vC70LgzusvQQZL3+KHZg2FrNxoQh08cNRNN7rZTiN+Fxq47LFPHmhtADRsxbeF81eNnQKF9JjQuW8QBAOzjyHuMfRzl1jajAVWS7Jwsc/pb+93SFNpHQkNmM2HrkyDnf7oQc14uiE27d6k/rQIotI+ERt0Z49tDJ4/FnJMLVhnR03cfmWpedWFrVxMUuo6FbvZ0V129zm3Nqyd+vHTR5OPVKXDE6m0bzfNt7WuDQnsoNG7Uf7VDK6cn7GzHGU6gFIdKA3pjHJJFNQMir925VQoL82POpSrO4FluZ92WNgP6mrds2b4HbVBor4R2mPrp3yRu2GDpPXaEFVxx0D99jAyaPF4mzp8jK7eslzMXzklxcaHJwYvynAtygtDYrYexM++2U46XQrvg5T4FBXk1gjdeFRcXPCujuYHe3fa8l8V9Po5w4aJGzXXn6lBoD4WGmJVvtaoZ/B70nl6NkW0gjp45YYYZb4fs0nMK7aHQdY3bM5+9eF5a9E004/OwDDVcKLQSod0XCGWe/sGRuaeZfIbxjVgUWoHQbvz96+1mJRDVlLC+3o1CB1joyptMRW7euSXp82ebCSB20oX5XYUUOmBC4ziWM7s0Oefl50nG9s3SekAfU5oLUzWjJih0gIR2Iyv7rlmI6T5yiLk2DNWMsE3+aoJCB0BoVC9KnR/3Zh4yt5Ni5Q89MqoYts8WZih0YIQuNkInjRspr3VqU9krh3isXBMUOiBDjsqxsxORctm2b7e0TE40+0Eo9fNQ6IBNCs1qpBOXrl2VXqOHqT+BEi0U2mOh0ZNWxfZ7vABx/2Gu2eHXIESbj14EhfZQ6BdH7Mep/keReeL9B7nSe8xwaej01Bx+UGhPhMakDRuO1u3cKnOWfSYLVn7+jE9WLZdl6zNkz5GDkp2bZdryUmwE3qLVblA/1fdt/FYotAdCuxv8+4wbJb9r1dyU1KpSr3MbM4HDIVVI/ijvYcxtVgVx/OxJwRGrsO2uqw6F9lDoFx3BQqnttU6tpWfaMPnXf67H3K6Lu8sO99bV7xKOo1Y1QaFrUWgXTOLwNqqfb9+MuW0XtF9eXipD/jLRVD7COkmk0HUgNCZvDbq2k+QJo81+DNSWbc+NFsTVf1+TPzrP137/Rk1Q6DoQ2gXDj1lLFpr2MWywPTsa3MWXLzevD80p7+pQ6DoUulmveJMD7pyLNQcX817vJwVmifyN+N+eixYodB0KDXAnR8LI9yW/IM/IaHt+tCCOnT1pno17P2ztaoVC17HQAGW9FZvWxZyHC277R0xc8JEpG9ra1AqF9oHQTXp2lT/17y2/3LnlZIL3e9vbiQbEtRvXTbVD833Q1aHQPhAa4BalOcsWm1y8nCAuXL3C/A9ga1MjFNonQjdNjJOmziTx0rXLMefjgnJg7oMcU/MOy2EACu0ToQEOuY6fN8vJJuLJW68AYuPuneZ/AFub2qDQPhIaZTxUJrx6rwqocPIqLi6SvhPSzCWRtnY1QaF9JDTAJqbBU9KlrKzEea43d94hjpw8Zj6v9pPhFNpnQkM47MXAS+ZjzculwvnH4SQoY+bMNEvumvd5UGifCQ1wjVfPtKHmvmgvF1sw4cTEExNQW7saoNA+FBpgEofrcGPNzcXdYjp3+RKzz0NrL02hfSr0WwldpMPg/pJzP9sMF2ztRgtuXLp77460Gaj3Rn8K7VOhAXrpxRkrTX5eHbhFZOzYrLaMR6F9LDSWrFskJ5ozg14tiWNMjjcJJI4eZkqEtnaDDIX2sdAAPemMzz4xOXqxJA4Q3x09JA27tVdXxqPQPhcaVQmcPvnn5crXvdnajxbkW+H01MNnTlV3UQ2F9rnQANKlzZ5uJodoy5ZDtCB+vHTB7PTDPxpbu0GEQgdAaAwLkOs/Tv8Qc64ubhlv5pJPzbBGSxmPQgdAaIDnpkwcKyVOexHPlsQjcuvOLbMXW8uhWgodEKEBTp/sOLAn5nyrgvhi0zo1h2opdICExlVf8SNS5XH+I6c9b5bEI5FyyXv8UOKGp6q4SoxCB0hogNMnq7ZujDnnqiC+/n6f2bjkuPCrNoMEhQ6Y0FiyxtL13Xt3PVsSN9tUy0pk8NR0s33V1m5QCLXQ+MvDK4S9iqHTJ0ujWhACvfT8lcuetupdXLl+1TwfBw2qtxkUQis0QG83beECWbNzm3y1bdNLs3r7JrM/It4ZhzaphU0/2P75Xr9e8vmGNbJmxxZrTtGyevtmcx1w3PDBga54hFpo3DGHvcc4y4fFi5cFfx5ggaI2Lh1HzRi9qNt29XxeBvc5QV8KD7XQRB8UmqiCQhNVUGiiCgpNVEGhiSooNFEFhSaqoNBEFRSaqIJCE1VQaKIKCk1UQaGJKig0UQWFJqqg0EQVFJqogkITVVBoogoKTVRBoYkqKDRRBYUmqqDQRBUUmqiCQhNVUGiiCgpNVEGhiSooNFEFhSaqoNBEFRSaqIJCE1VQaKIKCk1UQaGJKig0UQWFJqqoFLpPwp7WqSnmF4QEmdapKfJf/u96iyV95WoAAAAASUVORK5CYII=">
-<link rel="icon" type="image/png" sizes="512x512" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAQAElEQVR4nOzdCZjXVb348TMMMzALi0KgoiwqiJpQmuIGmmgu5YLhrqmlZWXWvWbl7d/mzVv6v1a3zExN67qTqLlrhhsqyqK4CxrghrI7DAzbzNyf3tt96orKMvPjd36f1+v5Pr9nWB6eeWCG9++c8/2e03H4saMTAPF0SACEJAAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFACABCUAAAEJQAAQQkAQFAdE6zO6ccdv9UW/VJUra2tK1etWtW86t3X5nde3/XuB83LV65Yuqxp/sKF8xYtWvD2orkLFixfsSJBbgSA1RvYb8AOgwYl1szSpqb5ixYVrnmLFhbCMGfBgtlz57wx561XZs9OUKoEANpAbU1N4dpi003f+0tzFsyfPWfuG3PnvJOEt956dfbs6a/MSlACBADaV6+NexSuoYMH/+/PLF7S+NSLL0598YWpL7740qyZ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e47e/4BE5gQANryb7v3z3AULUlaOP/iQ+rq6RM4EADa85ubmS8Zcl7JSV1N76mi3hOZNAKAk/GXCo9NmzkhZ+czen+y3WZ9EtgQASkV2hwZXVFQ4OD5rAgCl4tmXXpow9cmUlaGDBw8bMjSRJwGAEnLRtVe3tOZ0aHDBV487oUOF/0my5J8NSshrb75550MPpqxs3rv3ISNHJjIkAFBafnfDH1esXJGycvKow2trahK5EQAoLYsaGq6/486UlS519ScdNiqRGwGAknPtHbc2NDamrBy27369e/ZIZEUAoOQsW778ipvGpqx0rOx4+rEnJLIiAFCKbh03bvbcuSkre+y405BtBifyIQBQilpaWy6+/tqUG8+F5UUAoEQ9NGnis9Onp6z079PnwOEjEpkQAChd2W0OUXDqEUd1qq5O5EAAoHRNmzXzwUkTU1a6d+163GcOSeRAAKCkXXzdNc0tmW0OceSBB/XovlGi5AkAlLQ35827ddxfUlaqq6pOO/qYRMkTACh1V9x0Y9PyZSkrI3fdbWDffonSVjH82NEJ3mPrvv3qamtTqVq+YsULf305hTGgz+Zdu3RJWZm3cMHrb72VKGEdE6zOS6/MSpSMGa+/lqCtmQICCEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgKAEACEoAAIISAICgBAAgqP8CAAD//4kt/F8AAAAGSURBVAMAnOq6HO+qenkAAAAASUVORK5CYII=">
-<title>Phase I — RESTORE</title>
+</head>
+<body>
+<title>RESTORE → REBUILD</title>
 <style>
   :root{
-    --paper:#FBFAF7;
-    --card:#FFFFFF;
-    --ink:#15181A;
-    --ink-soft:#3A4144;
-    --muted:#767B7C;
-    --line:#E5E3DD;
-    --line-soft:#F0EEE9;
-    --accent:#3D5A54;
-    --accent-tint:#EAF0ED;
-    --chip:#FFFFFF;
+    --paper:#FBFAF7; --card:#FFFFFF; --ink:#15181A; --ink-soft:#3A4144;
+    --muted:#767B7C; --line:#E5E3DD; --line-soft:#F0EEE9;
+    --accent:#3D5A54; --accent-tint:#EAF0ED; --chip:#FFFFFF;
     --shadow:0 1px 2px rgba(21,24,26,.04);
     --sans:"Inter","Segoe UI Variable Text","Segoe UI",-apple-system,BlinkMacSystemFont,system-ui,"Helvetica Neue",Arial,sans-serif;
   }
@@ -32,15 +22,13 @@
     :root{
       --paper:#101413; --card:#171B1A; --ink:#EDEEEA; --ink-soft:#C6CAC6;
       --muted:#8B9391; --line:#262B2A; --line-soft:#1F2423;
-      --accent:#8FBDB0; --accent-tint:#1A2422; --chip:#1B211F;
-      --shadow:none;
+      --accent:#8FBDB0; --accent-tint:#1A2422; --chip:#1B211F; --shadow:none;
     }
   }
   :root[data-theme="dark"]{
     --paper:#101413; --card:#171B1A; --ink:#EDEEEA; --ink-soft:#C6CAC6;
     --muted:#8B9391; --line:#262B2A; --line-soft:#1F2423;
-    --accent:#8FBDB0; --accent-tint:#1A2422; --chip:#1B211F;
-    --shadow:none;
+    --accent:#8FBDB0; --accent-tint:#1A2422; --chip:#1B211F; --shadow:none;
   }
   :root[data-theme="light"]{
     --paper:#FBFAF7; --card:#FFFFFF; --ink:#15181A; --ink-soft:#3A4144;
@@ -52,57 +40,53 @@
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
   @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
-
   body{
     margin:0; background:var(--paper); color:var(--ink);
     font-family:var(--sans); font-size:15px; line-height:1.5;
     -webkit-font-smoothing:antialiased;
+    padding:env(safe-area-inset-top) env(safe-area-inset-right)
+            env(safe-area-inset-bottom) env(safe-area-inset-left);
   }
-
   .shell{max-width:760px; margin:0 auto; padding:0 20px 80px}
 
+  /* ---------- Phase tabs ---------- */
+  .phases{display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:26px 0 0}
+  .ptab{
+    display:flex; flex-direction:column; gap:5px; text-align:left;
+    padding:13px 15px; cursor:pointer; font:inherit;
+    background:var(--chip); border:1px solid var(--line); border-radius:4px;
+    transition:border-color .15s ease, background-color .15s ease;
+  }
+  .ptab-n{font-size:9px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:700}
+  .ptab-name{font-size:15px; font-weight:750; letter-spacing:-.02em; color:var(--ink)}
+  .ptab-meta{font-size:11px; color:var(--muted); font-variant-numeric:tabular-nums}
+  .ptab[aria-selected="true"]{border-color:var(--accent); background:var(--accent-tint)}
+  .ptab[aria-selected="true"] .ptab-n{color:var(--accent)}
+  .ptab:hover{border-color:var(--muted)}
+  .ptab:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
   /* ---------- Masthead ---------- */
-  .masthead{display:flex; flex-direction:column; gap:22px; padding:44px 0 30px}
-  .eyebrow{
-    margin:0; font-size:10.5px; letter-spacing:.22em; text-transform:uppercase;
-    color:var(--accent); font-weight:700;
-  }
-  .wordmark{
-    margin:0; font-size:clamp(46px,14vw,76px); line-height:.88;
-    font-weight:800; letter-spacing:-.04em; text-wrap:balance;
-  }
-  .standfirst{
-    margin:0; font-size:16px; line-height:1.45; color:var(--muted);
-    max-width:34ch; text-wrap:balance;
-  }
-  .client{
-    margin:0; display:flex; align-items:center; gap:10px;
-    font-size:10.5px; letter-spacing:.16em; text-transform:uppercase;
-    color:var(--muted); font-weight:700;
-  }
+  .masthead{display:flex; flex-direction:column; gap:20px; padding:34px 0 28px}
+  .eyebrow{margin:0; font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); font-weight:700}
+  .wordmark{margin:0; font-size:clamp(44px,13vw,74px); line-height:.88; font-weight:800; letter-spacing:-.04em; text-wrap:balance}
+  .standfirst{margin:0; font-size:16px; line-height:1.45; color:var(--muted); max-width:36ch; text-wrap:balance}
+  .client{margin:0; display:flex; align-items:center; gap:10px; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:700}
   .client b{color:var(--accent); font-weight:700; letter-spacing:.08em}
   .client::before{content:""; width:18px; height:1px; background:var(--line); flex:none}
-
-  .stats{
-    display:grid; grid-template-columns:repeat(2,1fr); gap:18px 24px;
-    padding-top:22px; border-top:1px solid var(--line); margin:0;
-  }
+  .stats{display:grid; grid-template-columns:repeat(2,1fr); gap:18px 24px; padding-top:22px; border-top:1px solid var(--line); margin:0}
   .stats div{display:flex; flex-direction:column; gap:5px}
   .stats dt{font-size:9.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:700}
   .stats dd{margin:0; font-size:15px; font-weight:650; letter-spacing:-.01em; font-variant-numeric:tabular-nums}
 
   /* ---------- Sticky day nav ---------- */
   .daynav{
-    position:sticky; top:0; z-index:20;
+    position:sticky; top:env(safe-area-inset-top, 0px); z-index:20;
     margin:0 -20px; padding:10px 20px;
     background:color-mix(in srgb, var(--paper) 88%, transparent);
     backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
     border-bottom:1px solid var(--line);
   }
-  .daynav ul{
-    display:flex; gap:7px; list-style:none; margin:0; padding:0;
-    overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none;
-  }
+  .daynav ul{display:flex; gap:7px; list-style:none; margin:0; padding:0; overflow-x:auto; scrollbar-width:none}
   .daynav ul::-webkit-scrollbar{display:none}
   .daynav a{
     display:block; padding:8px 13px; border-radius:999px;
@@ -113,173 +97,34 @@
   }
   .daynav a:hover{color:var(--ink); border-color:var(--muted)}
   .daynav a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
-  .daynav a[aria-current="true"]{
-    background:var(--accent); border-color:var(--accent);
-    color:var(--paper);
-  }
-  .daynav a.is-today::after{
-    content:""; display:inline-block; width:4px; height:4px; border-radius:50%;
-    background:var(--accent); margin-left:6px; vertical-align:middle;
-  }
+  .daynav a[aria-current="true"]{background:var(--accent); border-color:var(--accent); color:var(--paper)}
+  .daynav a.is-today::after{content:""; display:inline-block; width:4px; height:4px; border-radius:50%; background:var(--accent); margin-left:6px; vertical-align:middle}
   .daynav a.is-today[aria-current="true"]::after{background:var(--paper)}
 
-  /* ---------- Section headings ---------- */
-  .rubric{
-    display:flex; align-items:center; gap:14px;
-    font-size:10px; letter-spacing:.2em; text-transform:uppercase;
-    color:var(--muted); font-weight:700; margin:0;
-  }
+  .rubric{display:flex; align-items:center; gap:14px; font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); font-weight:700; margin:0}
   .rubric::after{content:""; flex:1; height:1px; background:var(--line)}
 
-  .glance{display:flex; flex-direction:column; gap:16px; padding:34px 0 8px}
-  .glance-list{display:flex; flex-direction:column; margin:0}
-  .glance-list a{
-    display:grid; grid-template-columns:52px 1fr; gap:2px 14px; align-items:baseline;
-    padding:12px 0; border-bottom:1px solid var(--line-soft);
-    text-decoration:none; color:inherit;
-  }
-  .glance-list a:first-child{border-top:1px solid var(--line-soft)}
-  .glance-list a:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
-  .gl-day{font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:700}
-  .gl-name{font-weight:650; letter-spacing:-.01em}
-  .gl-note{grid-column:2; font-size:12.5px; color:var(--muted)}
-
-  /* ---------- Day sections ---------- */
-  .days{display:flex; flex-direction:column; gap:16px; padding:38px 0 0}
-  .day{
-    scroll-margin-top:74px;
-    background:var(--card); border:1px solid var(--line); border-radius:4px;
-    box-shadow:var(--shadow);
-    padding:24px 22px 22px;
-    display:flex; flex-direction:column; gap:20px;
-  }
-  .day.rest{background:var(--accent-tint); border-color:transparent; box-shadow:none}
-
-  .day-head{
-    display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
-    padding-bottom:14px; border-bottom:1.5px solid var(--ink);
-  }
-  .day.rest .day-head{border-bottom-color:var(--accent)}
-  .day-name{margin:0; font-size:21px; font-weight:750; letter-spacing:-.025em; flex:1}
-  .day-tag{
-    font-size:10px; letter-spacing:.14em; text-transform:uppercase; font-weight:700;
-    color:var(--accent); background:var(--accent-tint);
-    padding:5px 10px; border-radius:2px; white-space:nowrap;
-  }
-  .day.rest .day-tag{background:transparent; padding:5px 0}
-
-  .block{display:flex; flex-direction:column; gap:2px}
-  .block-label{
-    margin:0 0 4px; font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
-    color:var(--muted); font-weight:700;
-  }
-  .ex{list-style:none; margin:0; padding:0; display:flex; flex-direction:column}
-  .ex li{
-    display:grid; grid-template-columns:1fr auto; gap:2px 16px; align-items:baseline;
-    padding:9px 0; border-bottom:1px solid var(--line-soft);
-  }
-  .day.rest .ex li{border-bottom-color:var(--line)}
-  .ex li:last-child{border-bottom:none; padding-bottom:0}
-  .nm{font-weight:550}
-  .cue{grid-column:1 / -1; font-size:12.5px; line-height:1.45; color:var(--muted)}
-  .rx{
-    font-size:13px; font-weight:750; white-space:nowrap; letter-spacing:-.01em;
-    font-variant-numeric:tabular-nums; color:var(--ink-soft); text-align:right;
-  }
-
-  .lead{margin:0; display:flex; flex-direction:column; gap:5px}
-  .lead b{font-size:19px; font-weight:700; letter-spacing:-.02em}
-  .lead span{font-size:13.5px; color:var(--muted)}
-
-  .log{display:none}
-
-  /* ---------- Progression ---------- */
-  .progression{display:flex; flex-direction:column; gap:16px; padding:44px 0 0}
-  .weeks{display:grid; grid-template-columns:1fr; gap:12px}
-  .wk{
-    border:1px solid var(--line); border-radius:4px; background:var(--card);
-    box-shadow:var(--shadow);
-    padding:18px 20px; display:flex; flex-direction:column; gap:10px;
-  }
-  .wk-top{display:flex; align-items:baseline; justify-content:space-between; gap:12px}
-  .wk-n{font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:var(--muted)}
-  .rpe{
-    font-size:11px; font-weight:750; letter-spacing:.03em;
-    color:var(--accent); background:var(--accent-tint); padding:4px 9px; border-radius:2px;
-    font-variant-numeric:tabular-nums; white-space:nowrap;
-  }
-  .wk p{margin:0; color:var(--ink-soft)}
-
-  .colophon{
-    margin:34px 0 0; padding-top:18px; border-top:1px solid var(--line);
-    font-size:12.5px; color:var(--muted); line-height:1.6;
-  }
-  .colophon b{color:var(--ink-soft); font-weight:650}
-
-  /* ---------- Wider screens ---------- */
-  @media (min-width:640px){
-    body{font-size:15.5px}
-    .stats{grid-template-columns:repeat(4,1fr)}
-    .glance-list a{grid-template-columns:60px 1fr auto; gap:14px}
-    .gl-note{grid-column:auto; text-align:right}
-    .day{padding:28px 30px 26px}
-    .ex li{grid-template-columns:1fr auto}
-    .weeks{grid-template-columns:1fr 1fr}
-  }
-
-  /* ---------- Print ---------- */
-  @page{ size:A4; margin:15mm 14mm; }
-  @media print{
-    :root{
-      --paper:#fff; --card:#fff; --ink:#15181A; --ink-soft:#3A4144; --muted:#767B7C;
-      --line:#E0DDD6; --line-soft:#EFEDE8; --accent:#3D5A54; --accent-tint:#EEF3F1;
-      --shadow:none;
-    }
-    body{background:#fff; font-size:11.5px}
-    .shell{max-width:none; padding:0}
-    .daynav{display:none}
-    .reset, .startline input{display:none}
-    .tracker{break-inside:avoid}
-    .masthead{break-after:page; padding-top:8mm}
-    .wordmark{font-size:70px}
-    .day, .wk{break-inside:avoid}
-    .day{border-radius:0; padding:18px 20px 16px}
-    .log{display:flex; flex-direction:column; gap:12px; padding-top:14px; border-top:1px solid var(--line)}
-    .log-lines{display:flex; flex-direction:column}
-    .log-lines span{display:block; height:24px; border-bottom:1px solid var(--line-soft)}
-    .progression{break-before:page}
-    a{color:inherit; text-decoration:none}
-  }
-
-  /* ---------- 28-day tracker ---------- */
+  /* ---------- Tracker ---------- */
   .tracker{display:flex; flex-direction:column; gap:18px; padding:34px 0 0}
   .tracker-top{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:18px}
   .counts{display:flex; gap:24px; flex-wrap:wrap; margin:0}
   .counts div{display:flex; flex-direction:column; gap:4px}
-  .count-n{
-    font-size:27px; font-weight:800; letter-spacing:-.035em; line-height:1;
-    font-variant-numeric:tabular-nums;
-  }
-  .count-n.muted{color:var(--muted)}
+  .count-n{font-size:27px; font-weight:800; letter-spacing:-.035em; line-height:1; font-variant-numeric:tabular-nums}
+  .count-n.muted{color:var(--muted); font-size:20px}
   .count-l{font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:700}
   .startline{display:flex; align-items:center; gap:8px; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:700}
   .startline input{
     font:inherit; font-size:12px; letter-spacing:0; text-transform:none; font-weight:600;
-    color:var(--ink); background:var(--card);
-    border:1px solid var(--line); border-radius:3px; padding:6px 8px;
+    color:var(--ink); background:var(--card); border:1px solid var(--line);
+    border-radius:3px; padding:6px 8px;
   }
   .startline input:focus-visible{outline:2px solid var(--accent); outline-offset:1px}
-
   .bar{height:4px; background:var(--line); border-radius:999px; overflow:hidden}
   .bar span{display:block; height:100%; width:0; background:var(--accent); border-radius:999px; transition:width .35s ease}
   @media (prefers-reduced-motion: reduce){ .bar span{transition:none} }
-
   .cal{display:flex; flex-direction:column; gap:7px}
   .dow, .week{display:grid; grid-template-columns:repeat(7,1fr); gap:7px}
-  .dow span{
-    font-size:9px; letter-spacing:.1em; text-transform:uppercase;
-    color:var(--muted); font-weight:700; text-align:center;
-  }
+  .dow span{font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); font-weight:700; text-align:center}
   .cell{
     aspect-ratio:1/1; padding:0; cursor:pointer;
     border:1px solid var(--line); border-radius:3px; background:var(--card);
@@ -298,446 +143,598 @@
   .cell.today{box-shadow:0 0 0 2px var(--accent)}
   .cell:hover{border-color:var(--muted)}
   .cell:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
-
   .legend{display:flex; align-items:center; gap:18px; flex-wrap:wrap; font-size:11.5px; color:var(--muted)}
   .legend span{display:flex; align-items:center; gap:7px}
   .legend i{width:6px; height:6px; border-radius:50%; background:var(--muted); font-style:normal}
   .legend i.lift{background:var(--accent)}
-  .reset{
-    margin-left:auto; padding:0; border:0; background:none; cursor:pointer;
-    font:inherit; font-size:11.5px; color:var(--muted); text-decoration:underline;
-  }
+  .reset{margin-left:auto; padding:0; border:0; background:none; cursor:pointer; font:inherit; font-size:11.5px; color:var(--muted); text-decoration:underline}
   .reset:hover{color:var(--ink)}
   .reset:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
-  .wk.current{border-color:var(--accent)}
-
-  /* ---------- Installed-app (home screen) support ---------- */
-  body{
-    padding:env(safe-area-inset-top) env(safe-area-inset-right)
-            env(safe-area-inset-bottom) env(safe-area-inset-left);
+  /* ---------- Glance ---------- */
+  .glance{display:flex; flex-direction:column; gap:16px; padding:34px 0 0}
+  .glance-list{display:flex; flex-direction:column; margin:0}
+  .glance-list a{
+    display:grid; grid-template-columns:56px 1fr; gap:2px 14px; align-items:baseline;
+    padding:12px 0; border-bottom:1px solid var(--line-soft); text-decoration:none; color:inherit;
   }
-  .daynav{ top:env(safe-area-inset-top, 0px); }
-  @media print{ body{padding:0} }
+  .glance-list a:first-child{border-top:1px solid var(--line-soft)}
+  .glance-list a:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+  .gl-day{font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:700}
+  .gl-name{font-weight:650; letter-spacing:-.01em}
+  .gl-note{grid-column:2; font-size:12.5px; color:var(--muted)}
+
+  /* ---------- Days ---------- */
+  .days{display:flex; flex-direction:column; gap:16px; padding:38px 0 0}
+  .day{
+    scroll-margin-top:74px;
+    background:var(--card); border:1px solid var(--line); border-radius:4px;
+    box-shadow:var(--shadow); padding:24px 22px 22px;
+    display:flex; flex-direction:column; gap:20px;
+  }
+  .day.rest{background:var(--accent-tint); border-color:transparent; box-shadow:none}
+  .day-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; padding-bottom:14px; border-bottom:1.5px solid var(--ink)}
+  .day.rest .day-head{border-bottom-color:var(--accent)}
+  .day-name{margin:0; font-size:21px; font-weight:750; letter-spacing:-.025em; flex:1}
+  .day-tag{
+    font-size:10px; letter-spacing:.14em; text-transform:uppercase; font-weight:700;
+    color:var(--accent); background:var(--accent-tint); padding:5px 10px; border-radius:2px; white-space:nowrap;
+  }
+  .day.rest .day-tag{background:transparent; padding:5px 0}
+  .block{display:flex; flex-direction:column; gap:2px}
+  .block-label{margin:0 0 4px; font-size:9.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:700}
+  .ex{list-style:none; margin:0; padding:0; display:flex; flex-direction:column}
+  .ex li{display:grid; grid-template-columns:1fr auto; gap:2px 16px; align-items:baseline; padding:9px 0; border-bottom:1px solid var(--line-soft)}
+  .day.rest .ex li{border-bottom-color:var(--line)}
+  .ex li:last-child{border-bottom:none; padding-bottom:0}
+  .nm{font-weight:550}
+  .cue{grid-column:1 / -1; font-size:12.5px; line-height:1.45; color:var(--muted)}
+  .rx{font-size:13px; font-weight:750; white-space:nowrap; letter-spacing:-.01em; font-variant-numeric:tabular-nums; color:var(--ink-soft); text-align:right}
+  .lead{margin:0; display:flex; flex-direction:column; gap:5px}
+  .lead b{font-size:19px; font-weight:700; letter-spacing:-.02em}
+  .lead span{font-size:13.5px; color:var(--muted)}
+  .notes{margin:0; padding:0 0 0 16px; display:flex; flex-direction:column; gap:5px; font-size:12.5px; color:var(--muted); line-height:1.5}
+  .notes li::marker{color:var(--accent)}
+  .log{display:none}
+
+  /* ---------- Progression ---------- */
+  .progression{display:flex; flex-direction:column; gap:16px; padding:44px 0 0}
+  .weeks{display:grid; grid-template-columns:1fr; gap:12px}
+  .wk{border:1px solid var(--line); border-radius:4px; background:var(--card); box-shadow:var(--shadow); padding:18px 20px; display:flex; flex-direction:column; gap:10px}
+  .wk.current{border-color:var(--accent)}
+  .wk-top{display:flex; align-items:baseline; justify-content:space-between; gap:12px}
+  .wk-n{font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:var(--muted)}
+  .rpe{font-size:11px; font-weight:750; letter-spacing:.03em; color:var(--accent); background:var(--accent-tint); padding:4px 9px; border-radius:2px; font-variant-numeric:tabular-nums; white-space:nowrap}
+  .wk p{margin:0; color:var(--ink-soft)}
+
+  /* ---------- Closing ---------- */
+  .closing{display:flex; flex-direction:column; gap:16px; padding:44px 0 0}
+  .rules{
+    border:1px solid var(--line); border-left:2px solid var(--accent); border-radius:4px;
+    background:var(--card); padding:20px 22px; display:flex; flex-direction:column; gap:12px;
+  }
+  .rules h3{margin:0; font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:700}
+  .rules ul{margin:0; padding:0 0 0 16px; display:flex; flex-direction:column; gap:7px; color:var(--ink-soft); font-size:14px}
+  .rules li::marker{color:var(--accent)}
+  .outcome{margin:0; font-size:13.5px; line-height:1.6; color:var(--ink-soft)}
+  .outcome b{color:var(--accent)}
+  .colophon{margin:0; padding-top:18px; border-top:1px solid var(--line); font-size:12.5px; color:var(--muted); line-height:1.6}
+  .colophon b{color:var(--ink-soft); font-weight:650}
+
+  @media (min-width:640px){
+    body{font-size:15.5px}
+    .stats{grid-template-columns:repeat(4,1fr)}
+    .glance-list a{grid-template-columns:60px 1fr auto; gap:14px}
+    .gl-note{grid-column:auto; text-align:right}
+    .day{padding:28px 30px 26px}
+    .weeks{grid-template-columns:1fr 1fr}
+  }
+
+  /* ---------- Print: both phases, full document ---------- */
+  @page{ size:A4; margin:15mm 14mm; }
+  @media print{
+    :root{
+      --paper:#fff; --card:#fff; --ink:#15181A; --ink-soft:#3A4144; --muted:#767B7C;
+      --line:#E0DDD6; --line-soft:#EFEDE8; --accent:#3D5A54; --accent-tint:#EEF3F1; --shadow:none;
+    }
+    body{background:#fff; font-size:11.5px; padding:0}
+    .shell{max-width:none; padding:0}
+    .daynav, .phases, .reset, .startline input{display:none}
+    .phase[hidden]{display:block !important}
+    .phase + .phase{break-before:page}
+    .masthead{padding-top:6mm}
+    .wordmark{font-size:64px}
+    .day, .wk, .tracker, .rules{break-inside:avoid}
+    .day{border-radius:0; padding:18px 20px 16px}
+    .log{display:flex; flex-direction:column; gap:10px; padding-top:14px; border-top:1px solid var(--line)}
+    .log-lines{display:flex; flex-direction:column}
+    .log-lines span{display:block; height:22px; border-bottom:1px solid var(--line-soft)}
+    .progression{break-before:page}
+    a{color:inherit; text-decoration:none}
+  }
 </style>
 
-<div class="shell">
-
-  <header class="masthead">
-    <p class="eyebrow">Training program · Phase I</p>
-    <h1 class="wordmark">RESTORE</h1>
-    <p class="standfirst">A four-week rebuild of strength, mobility and aerobic base.</p>
-    <p class="client" id="client" hidden>Prepared for <b id="clientName"></b></p>
-    <dl class="stats">
-      <div><dt>Duration</dt><dd>Weeks 1–4</dd></div>
-      <div><dt>Structure</dt><dd>Upper / Lower ×4</dd></div>
-      <div><dt>Cardio</dt><dd>3 sessions</dd></div>
-      <div><dt>Intensity</dt><dd>RPE 5 → 7</dd></div>
-    </dl>
-  </header>
-
-  <nav class="daynav" aria-label="Jump to a session">
-    <ul>
-      <li><a href="#d1" data-slot="1">Day 1</a></li>
-      <li><a href="#d2" data-slot="2">Day 2</a></li>
-      <li><a href="#d3" data-slot="3">Day 3</a></li>
-      <li><a href="#d4" data-slot="4">Day 4</a></li>
-      <li><a href="#d5" data-slot="5">Day 5</a></li>
-      <li><a href="#d6" data-slot="6">Day 6</a></li>
-      <li><a href="#d7" data-slot="7">Day 7</a></li>
-    </ul>
-  </nav>
-
-  <section class="tracker" aria-labelledby="tracker-h">
-    <h2 class="rubric" id="tracker-h">Your 28 days</h2>
-
-    <div class="tracker-top">
-      <div class="counts">
-        <div><span class="count-n" id="c-day">1</span><span class="count-l">Day of 28</span></div>
-        <div><span class="count-n" id="c-done">0</span><span class="count-l">Completed</span></div>
-        <div><span class="count-n" id="c-left">28</span><span class="count-l">Remaining</span></div>
-        <div><span class="count-n" id="c-week">1</span><span class="count-l">Week</span></div>
-      </div>
-      <label class="startline">Started
-        <input type="date" id="startDate">
-      </label>
-    </div>
-
-    <div class="bar"><span id="bar"></span></div>
-
-    <div class="cal">
-      <div class="dow" aria-hidden="true">
-        <span>1</span><span>2</span><span>3</span><span>4</span>
-        <span>5</span><span>6</span><span>7</span>
-      </div>
-      <div id="weeks"></div>
-    </div>
-
-    <div class="legend">
-      <span><i class="lift"></i>Lifting session</span>
-      <span><i></i>Rest / cardio</span>
-      <button class="reset" id="reset" type="button">Reset progress</button>
-    </div>
-  </section>
-
-  <section class="glance" aria-labelledby="glance-h">
-    <h2 class="rubric" id="glance-h">The week at a glance</h2>
-    <div class="glance-list">
-      <a href="#d1"><span class="gl-day">Day 1</span><span class="gl-name">Upper A</span><span class="gl-note">Strength + hypertrophy</span></a>
-      <a href="#d2"><span class="gl-day">Day 2</span><span class="gl-name">Lower A</span><span class="gl-note">Strength + hypertrophy + core</span></a>
-      <a href="#d3"><span class="gl-day">Day 3</span><span class="gl-name">Rest</span><span class="gl-note">Easy spin 10 km · stretching</span></a>
-      <a href="#d4"><span class="gl-day">Day 4</span><span class="gl-name">Upper B</span><span class="gl-note">Strength + hypertrophy</span></a>
-      <a href="#d5"><span class="gl-day">Day 5</span><span class="gl-name">Lower B</span><span class="gl-note">Strength + hypertrophy + core</span></a>
-      <a href="#d6"><span class="gl-day">Day 6</span><span class="gl-name">Recovery cardio</span><span class="gl-note">15 km Zone 2 · mobility</span></a>
-      <a href="#d7"><span class="gl-day">Day 7</span><span class="gl-name">Cycling</span><span class="gl-note">40–60 km · ~120 min</span></a>
-    </div>
-  </section>
-
-  <div class="days">
-
-    <!-- MONDAY -->
-    <section class="day" id="d1" aria-labelledby="d1-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d1-h">Day 1</h2>
-        <span class="day-tag">Upper A</span>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Warm-up</h3>
-        <ul class="ex">
-          <li><span class="nm">Bike</span></li>
-          <li><span class="nm">Shoulder mobility</span><span class="cue">Wall slides · PVC / band shoulder pass-throughs</span></li>
-          <li><span class="nm">Thoracic mobility</span><span class="cue">Open book stretch · Quadruped T-spine rotations</span></li>
-          <li><span class="nm">Band pull-aparts</span><span class="rx">×20</span></li>
-          <li><span class="nm">Y-raise</span><span class="rx">2×12–15</span></li>
-          <li><span class="nm">Scapular push-ups</span><span class="rx">×10</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Strength</h3>
-        <ul class="ex">
-          <li><span class="nm">Incline dumbbell press</span><span class="rx">3×8–10</span></li>
-          <li><span class="nm">Chest-supported row</span><span class="rx">3×8–10</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Hypertrophy</h3>
-        <ul class="ex">
-          <li><span class="nm">Machine fly press</span><span class="rx">2×12</span></li>
-          <li><span class="nm">Neutral-grip lat pulldown</span><span class="rx">2×12</span></li>
-          <li><span class="nm">Dumbbell lateral raise</span><span class="rx">3×15</span></li>
-          <li><span class="nm">Rope triceps pushdown</span><span class="rx">2×15</span></li>
-          <li><span class="nm">Machine preacher curl</span><span class="rx">2×15</span></li>
-          <li><span class="nm">Dips · Chin-ups</span></li>
-        </ul>
-      </div>
-
-      <div class="log"><h3 class="block-label">Session notes</h3><div class="log-lines"><span></span><span></span><span></span></div></div>
-    </section>
-
-    <!-- TUESDAY -->
-    <section class="day" id="d2" aria-labelledby="d2-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d2-h">Day 2</h2>
-        <span class="day-tag">Lower A</span>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Warm-up</h3>
-        <ul class="ex">
-          <li><span class="nm">Hip mobility</span><span class="cue">90/90 hip switches · World's greatest stretch · Hip CARs</span></li>
-          <li><span class="nm">Glute activation</span><span class="cue">Quadruped donkey kick · Glute bridge</span></li>
-          <li><span class="nm">Ankle mobility</span><span class="cue">Heel-to-toe raises · Tibialis raises · Knee-to-wall dorsiflexion</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Strength</h3>
-        <ul class="ex">
-          <li><span class="nm">Romanian deadlift</span><span class="rx">3×8–10</span></li>
-          <li><span class="nm">Leg press</span><span class="rx">3×10–12</span><span class="cue">Comfortable range of motion — no deep squat depth if it doesn't suit you.</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Hypertrophy</h3>
-        <ul class="ex">
-          <li><span class="nm">Seated leg curl</span><span class="rx">3×12–15</span></li>
-          <li><span class="nm">Leg extension</span><span class="rx">3×12–15</span></li>
-          <li><span class="nm">Standing calf raise · Leg press calf raise</span><span class="rx">3×15–20</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Core</h3>
-        <ul class="ex">
-          <li><span class="nm">Pallof press</span><span class="rx">3×12</span></li>
-          <li><span class="nm">Front plank</span><span class="rx">3×30–45 s</span></li>
-        </ul>
-      </div>
-
-      <div class="log"><h3 class="block-label">Session notes</h3><div class="log-lines"><span></span><span></span><span></span></div></div>
-    </section>
-
-    <!-- WEDNESDAY -->
-    <section class="day rest" id="d3" aria-labelledby="d3-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d3-h">Day 3</h2>
-        <span class="day-tag">Rest</span>
-      </div>
-      <p class="lead"><b>Complete rest — or an easy 10 km spin</b><span>Roughly 20–30 minutes, conversational pace.</span></p>
-      <div class="block">
-        <h3 class="block-label">Finish with</h3>
-        <ul class="ex">
-          <li><span class="nm">Light stretching</span><span class="rx">15–20 min</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- THURSDAY -->
-    <section class="day" id="d4" aria-labelledby="d4-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d4-h">Day 4</h2>
-        <span class="day-tag">Upper B</span>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Warm-up</h3>
-        <ul class="ex">
-          <li><span class="nm">Bike</span></li>
-          <li><span class="nm">Shoulder mobility</span><span class="cue">Wall slides · PVC / band shoulder pass-throughs</span></li>
-          <li><span class="nm">Thoracic mobility</span><span class="cue">Open book stretch · Quadruped T-spine rotations</span></li>
-          <li><span class="nm">Band pull-aparts</span><span class="rx">×20</span></li>
-          <li><span class="nm">Y-raise</span><span class="rx">2×12–15</span></li>
-          <li><span class="nm">Scapular push-ups</span><span class="rx">×10</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Strength</h3>
-        <ul class="ex">
-          <li><span class="nm">Pull-up or lat pulldown</span><span class="rx">3×8–10</span></li>
-          <li><span class="nm">Seated cable row</span><span class="rx">3×10</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Hypertrophy</h3>
-        <ul class="ex">
-          <li><span class="nm">Pec deck</span><span class="rx">3×12</span></li>
-          <li><span class="nm">Reverse cable rear delt</span><span class="rx">3×15</span></li>
-          <li><span class="nm">Cable lateral raise</span><span class="rx">3×15</span></li>
-          <li><span class="nm">EZ curl</span><span class="rx">2×15</span></li>
-          <li><span class="nm">Rope overhead triceps extension</span><span class="rx">2×15</span></li>
-          <li><span class="nm">Dips · Chin-ups</span></li>
-        </ul>
-      </div>
-
-      <div class="log"><h3 class="block-label">Session notes</h3><div class="log-lines"><span></span><span></span><span></span></div></div>
-    </section>
-
-    <!-- FRIDAY -->
-    <section class="day" id="d5" aria-labelledby="d5-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d5-h">Day 5</h2>
-        <span class="day-tag">Lower B</span>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Warm-up</h3>
-        <ul class="ex">
-          <li><span class="nm">Bike</span></li>
-          <li><span class="nm">Hip mobility</span><span class="cue">90/90 hip switches · World's greatest stretch · Hip CARs</span></li>
-          <li><span class="nm">Glute activation</span><span class="cue">Quadruped donkey kick · Glute bridge</span></li>
-          <li><span class="nm">Ankle mobility</span><span class="cue">Heel-to-toe raises · Tibialis raises · Knee-to-wall dorsiflexion</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Strength</h3>
-        <ul class="ex">
-          <li><span class="nm">Hip thrust</span><span class="rx">3×8–10</span></li>
-          <li><span class="nm">Reverse lunge</span><span class="rx">3×10 / leg</span><span class="cue">Only if it feels comfortable — otherwise replace with another leg press variation or glute bridge.</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Hypertrophy</h3>
-        <ul class="ex">
-          <li><span class="nm">Lying leg curl</span><span class="rx">3×12–15</span></li>
-          <li><span class="nm">Cable glute kickback</span><span class="rx">3×15</span></li>
-          <li><span class="nm">Leg press calf · Standing calf raise</span><span class="rx">3×15–20</span></li>
-        </ul>
-      </div>
-
-      <div class="block">
-        <h3 class="block-label">Core</h3>
-        <ul class="ex">
-          <li><span class="nm">Bird dog</span><span class="rx">3×10</span></li>
-          <li><span class="nm">Side plank</span><span class="rx">3×30 s / side</span></li>
-        </ul>
-      </div>
-
-      <div class="log"><h3 class="block-label">Session notes</h3><div class="log-lines"><span></span><span></span><span></span></div></div>
-    </section>
-
-    <!-- SATURDAY -->
-    <section class="day rest" id="d6" aria-labelledby="d6-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d6-h">Day 6</h2>
-        <span class="day-tag">Recovery cardio</span>
-      </div>
-      <p class="lead"><b>15 km · Zone 2</b><span>Steady, nasal-breathing pace — you should be able to hold a conversation.</span></p>
-      <div class="block">
-        <h3 class="block-label">Finish with</h3>
-        <ul class="ex">
-          <li><span class="nm">Hip mobility</span><span class="cue">Frog stretch · Couch stretch</span></li>
-          <li><span class="nm">Hamstring stretch</span><span class="cue">Jefferson curl (light &amp; controlled) · Supine hamstring stretch</span></li>
-          <li><span class="nm">Thoracic rotation</span><span class="cue">Half-kneeling thoracic rotation · Thread the needle</span></li>
-          <li><span class="nm">Shoulder mobility</span><span class="cue">Passive &amp; active dead hangs · Banded external rotations</span></li>
-          <li><span class="nm">Breathing</span><span class="cue">Box breathing (4-4-4-4) · 90/90 breathing</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- SUNDAY -->
-    <section class="day rest" id="d7" aria-labelledby="d7-h">
-      <div class="day-head">
-        <h2 class="day-name" id="d7-h">Day 7</h2>
-        <span class="day-tag">Cycling</span>
-      </div>
-      <p class="lead"><b>40–60 km</b><span>Around 120 minutes on the bike.</span></p>
-      <div class="block">
-        <h3 class="block-label">Finish with</h3>
-        <ul class="ex">
-          <li><span class="nm">Light stretching</span></li>
-        </ul>
-      </div>
-    </section>
-
-  </div>
-
-  <section class="progression" aria-labelledby="prog-h">
-    <h2 class="rubric" id="prog-h">Weekly progression</h2>
-    <div class="weeks">
-      <div class="wk">
-        <div class="wk-top"><span class="wk-n">Week 1</span><span class="rpe">RPE 5–6</span></div>
-        <p>Focus on movement quality.</p>
-      </div>
-      <div class="wk">
-        <div class="wk-top"><span class="wk-n">Week 2</span><span class="rpe">Load ↑</span></div>
-        <p>Slight increase in load, or 1–2 extra reps where appropriate.</p>
-      </div>
-      <div class="wk">
-        <div class="wk-top"><span class="wk-n">Week 3</span><span class="rpe">RPE 6–7</span></div>
-        <p>Add a little volume — only if recovery is good.</p>
-      </div>
-      <div class="wk">
-        <div class="wk-top"><span class="wk-n">Week 4</span><span class="rpe">RPE 7</span></div>
-        <p>Finish strong, but never reach failure.</p>
-      </div>
-    </div>
-    <p class="colophon">
-      <b>RPE</b> — rate of perceived exertion on a 1–10 scale. RPE 7 means roughly three good reps left in reserve.
-      Keep every set short of failure across all four weeks.
-    </p>
-  </section>
-
-</div>
+<div class="shell" id="shell"></div>
 
 <script>
-  (function () {
-    // Per-client personalisation, driven by the link:
-    //   ?client=Youssef&start=2026-08-10
-    var params = new URLSearchParams(location.search);
-    var clientName = (params.get('client') || '').trim().slice(0, 40);
-    var startParam = /^\d{4}-\d{2}-\d{2}$/.test(params.get('start') || '')
-      ? params.get('start') : null;
+(function () {
+  'use strict';
 
-    if (clientName) {
-      document.getElementById('clientName').textContent = clientName;
-      document.getElementById('client').hidden = false;
-      document.title = clientName + ' — Phase I RESTORE';
+  /* ============================================================
+     PROGRAM DATA — add a block here and the whole app follows.
+     item = [name, prescription, cue]
+     ============================================================ */
+  var PROGRAM = [
+    {
+      id: 'restore',
+      numeral: 'I',
+      name: 'RESTORE',
+      weeks: 'Weeks 1–4',
+      standfirst: 'A four-week rebuild of strength, mobility and aerobic base.',
+      stats: [['Duration', 'Weeks 1–4'], ['Structure', 'Upper / Lower ×4'],
+              ['Cardio', '3 sessions'], ['Intensity', 'RPE 5 → 7']],
+      days: [
+        { title: 'Upper A', tag: 'Upper A', type: 'lift', note: 'Strength + hypertrophy',
+          blocks: [
+            ['Warm-up', [
+              ['Bike'],
+              ['Shoulder mobility', '', 'Wall slides · PVC / band shoulder pass-throughs'],
+              ['Thoracic mobility', '', 'Open book stretch · Quadruped T-spine rotations'],
+              ['Band pull-aparts', '×20'], ['Y-raise', '2×12–15'], ['Scapular push-ups', '×10']]],
+            ['Strength', [
+              ['Incline dumbbell press', '3×8–10'], ['Chest-supported row', '3×8–10']]],
+            ['Hypertrophy', [
+              ['Machine fly press', '2×12'], ['Neutral-grip lat pulldown', '2×12'],
+              ['Dumbbell lateral raise', '3×15'], ['Rope triceps pushdown', '2×15'],
+              ['Machine preacher curl', '2×15'], ['Dips · Chin-ups']]]
+          ] },
+        { title: 'Lower A', tag: 'Lower A', type: 'lift', note: 'Strength + hypertrophy + core',
+          blocks: [
+            ['Warm-up', [
+              ['Hip mobility', '', "90/90 hip switches · World's greatest stretch · Hip CARs"],
+              ['Glute activation', '', 'Quadruped donkey kick · Glute bridge'],
+              ['Ankle mobility', '', 'Heel-to-toe raises · Tibialis raises · Knee-to-wall dorsiflexion']]],
+            ['Strength', [
+              ['Romanian deadlift', '3×8–10'],
+              ['Leg press', '3×10–12', "Comfortable range of motion — no deep squat depth if it doesn't suit you."]]],
+            ['Hypertrophy', [
+              ['Seated leg curl', '3×12–15'], ['Leg extension', '3×12–15'],
+              ['Standing calf raise · Leg press calf raise', '3×15–20']]],
+            ['Core', [['Pallof press', '3×12'], ['Front plank', '3×30–45 s']]]
+          ] },
+        { title: 'Rest', tag: 'Rest', type: 'rest', note: 'Easy spin 10 km · stretching',
+          lead: ['Complete rest — or an easy 10 km spin', 'Roughly 20–30 minutes, conversational pace.'],
+          blocks: [['Finish with', [['Light stretching', '15–20 min']]]] },
+        { title: 'Upper B', tag: 'Upper B', type: 'lift', note: 'Strength + hypertrophy',
+          blocks: [
+            ['Warm-up', [
+              ['Bike'],
+              ['Shoulder mobility', '', 'Wall slides · PVC / band shoulder pass-throughs'],
+              ['Thoracic mobility', '', 'Open book stretch · Quadruped T-spine rotations'],
+              ['Band pull-aparts', '×20'], ['Y-raise', '2×12–15'], ['Scapular push-ups', '×10']]],
+            ['Strength', [['Pull-up or lat pulldown', '3×8–10'], ['Seated cable row', '3×10']]],
+            ['Hypertrophy', [
+              ['Pec deck', '3×12'], ['Reverse cable rear delt', '3×15'],
+              ['Cable lateral raise', '3×15'], ['EZ curl', '2×15'],
+              ['Rope overhead triceps extension', '2×15'], ['Dips · Chin-ups']]]
+          ] },
+        { title: 'Lower B', tag: 'Lower B', type: 'lift', note: 'Strength + hypertrophy + core',
+          blocks: [
+            ['Warm-up', [
+              ['Bike'],
+              ['Hip mobility', '', "90/90 hip switches · World's greatest stretch · Hip CARs"],
+              ['Glute activation', '', 'Quadruped donkey kick · Glute bridge'],
+              ['Ankle mobility', '', 'Heel-to-toe raises · Tibialis raises · Knee-to-wall dorsiflexion']]],
+            ['Strength', [
+              ['Hip thrust', '3×8–10'],
+              ['Reverse lunge', '3×10 / leg', 'Only if it feels comfortable — otherwise replace with another leg press variation or glute bridge.']]],
+            ['Hypertrophy', [
+              ['Lying leg curl', '3×12–15'], ['Cable glute kickback', '3×15'],
+              ['Leg press calf · Standing calf raise', '3×15–20']]],
+            ['Core', [['Bird dog', '3×10'], ['Side plank', '3×30 s / side']]]
+          ] },
+        { title: 'Recovery cardio', tag: 'Recovery cardio', type: 'rest', note: '15 km Zone 2 · mobility',
+          lead: ['15 km · Zone 2', 'Steady, conversational pace.'],
+          blocks: [['Finish with', [
+            ['Hip mobility', '', 'Frog stretch · Couch stretch'],
+            ['Hamstring stretch', '', 'Jefferson curl (light & controlled) · Supine hamstring stretch'],
+            ['Thoracic rotation', '', 'Half-kneeling thoracic rotation · Thread the needle'],
+            ['Shoulder mobility', '', 'Passive & active dead hangs · Banded external rotations'],
+            ['Breathing', '', 'Box breathing (4-4-4-4) · 90/90 breathing']]]] },
+        { title: 'Cycling', tag: 'Cycling', type: 'rest', note: '40–60 km · ~120 min',
+          lead: ['40–60 km', 'Around 120 minutes on the bike.'],
+          blocks: [['Finish with', [['Light stretching']]]] }
+      ],
+      progression: [
+        ['Week 1', 'RPE 5–6', 'Focus on movement quality.'],
+        ['Week 2', 'Load ↑', 'Slight increase in load, or 1–2 extra reps where appropriate.'],
+        ['Week 3', 'RPE 6–7', 'Add a little volume — only if recovery is good.'],
+        ['Week 4', 'RPE 7', 'Finish strong, but never reach failure.']
+      ],
+      colophon: '<b>RPE</b> — rate of perceived exertion on a 1–10 scale. RPE 7 means roughly three good reps left in reserve. Keep every set short of failure across all four weeks.'
+    },
+
+    {
+      id: 'rebuild',
+      numeral: 'II',
+      name: 'REBUILD',
+      weeks: 'Weeks 5–8',
+      standfirst: 'Block 1. Rebuilding capacity without rushing the comeback.',
+      stats: [['Duration', 'Weeks 5–8'], ['Stage', 'Restore → Rebuild'],
+              ['Adds', 'Power · Running'], ['Intensity', 'RPE 7 → 8 → deload']],
+      days: [
+        { title: 'Upper A', tag: 'Upper A', type: 'lift', note: 'Strength + hypertrophy + mobility',
+          blocks: [
+            ['Warm-up / mobility', [
+              ['Bike', '5–7 min'], ['Wall slides', '2×10'], ['Band shoulder pass-throughs', '2×10'],
+              ['Open book', '2×8 / side'], ['Quadruped T-spine rotation', '2×8 / side'],
+              ['Band pull-aparts', '2×20'], ['Y-raise', '2×12'], ['Scapular push-ups', '2×10']]],
+            ['Strength', [
+              ['Incline dumbbell press', '4×6–8'], ['Chest-supported row', '4×6–8']]],
+            ['Hypertrophy', [
+              ['Machine chest press', '3×8–12'], ['Neutral-grip lat pulldown', '3×8–12'],
+              ['Dumbbell lateral raise', '3×12–15'], ['Rope triceps pushdown', '3×10–15'],
+              ['Machine preacher curl', '3×10–15']]]
+          ],
+          notes: ['Weeks 5–6: RPE 7', 'Week 7: RPE 8', 'Week 8: RPE 6–7'] },
+
+        { title: 'Lower A', tag: 'Lower A', type: 'lift', note: 'Strength + hypertrophy + core',
+          blocks: [
+            ['Warm-up / mobility', [
+              ['90/90 hip switches', '2×8 / side'], ['Hip CARs', '5 / side'],
+              ["World's Greatest Stretch", '2×5 / side'], ['Glute bridge', '2×12'],
+              ['Knee-to-wall dorsiflexion', '2×10 / side'], ['Tibialis raises', '2×15']]],
+            ['Strength', [['Romanian deadlift', '4×6–8'], ['Leg press', '4×8–10']]],
+            ['Hypertrophy', [
+              ['Seated leg curl', '3×10–12'], ['Leg extension', '3×10–15'],
+              ['Standing calf raise', '4×12–15']]],
+            ['Core', [['Pallof press', '3×10–12 / side'], ['Front plank', '3×40–60 s']]],
+            ['Post-session mobility', [
+              ['Couch stretch', '2×30 s / side'], ['Supine hamstring stretch', '2×30 s / side'],
+              ['Calf stretch', '2×30 s / side']]]
+          ] },
+
+        { title: 'Dedicated mobility', tag: 'Mobility', type: 'rest', note: 'Mobility + easy cardio',
+          lead: ['Bike 10–15 km · Zone 2', 'Conversational pace. This is a recovery day.'],
+          blocks: [['Mobility', [
+            ['90/90 hip switches', '2×10 / side'], ['90/90 forward fold', '2×30 s / side'],
+            ['Hip CARs', '2×5 / side'], ['Frog stretch', '2×30–45 s'],
+            ['Knee-to-wall', '2×10 / side'], ['Tibialis raises', '2×15'],
+            ['Calf stretch', '2×30 s / side'], ['Open book', '2×8 / side'],
+            ['Thread the needle', '2×8 / side'], ['Half-kneeling T-spine rotation', '2×8 / side'],
+            ['Wall slides', '2×10'], ['Banded external rotation', '2×12–15'],
+            ['Passive / active dead hang', '2×20–30 s'], ['90/90 breathing', '3–5 min']]]],
+          notes: ['Finish feeling better than when you started.', 'Keep the cardio easy — this is a recovery day.'] },
+
+        { title: 'Upper B', tag: 'Upper B', type: 'lift', note: 'Pull strength + hypertrophy',
+          blocks: [
+            ['Warm-up / mobility', [
+              ['Bike', '5–7 min'], ['Wall slides', '2×10'], ['Shoulder pass-throughs', '2×10'],
+              ['Open book', '2×8 / side'], ['Band pull-aparts', '2×20'], ['Scapular push-ups', '2×10']]],
+            ['Strength', [
+              ['Pull-up / neutral-grip lat pulldown', '4×6–8'], ['Seated cable row', '4×8–10']]],
+            ['Hypertrophy', [
+              ['Pec deck', '3×10–12'], ['Reverse cable rear delt', '3×12–15'],
+              ['Cable lateral raise', '3×12–15'], ['EZ-bar curl', '3×10–12'],
+              ['Rope overhead triceps extension', '3×10–15']]]
+          ],
+          notes: ['Optional: Dips — 2×8–12, only if completely comfortable.',
+                  'Weeks 5–6: RPE 7 · Week 7: RPE 8 · Week 8: RPE 6–7'] },
+
+        { title: 'Lower B', tag: 'Lower B', type: 'lift', note: 'Posterior chain + core',
+          blocks: [
+            ['Warm-up / mobility', [
+              ['90/90 hip switches', '2×8 / side'], ["World's Greatest Stretch", '2×5 / side'],
+              ['Hip CARs', '5 / side'], ['Glute bridge', '2×12'],
+              ['Knee-to-wall', '2×10 / side'], ['Tibialis raises', '2×15']]],
+            ['Strength', [['Hip thrust', '4×6–8'], ['Reverse lunge', '3×8–10 / leg']]],
+            ['Hypertrophy', [
+              ['Lying leg curl', '3×10–15'], ['Cable glute kickback', '3×12–15'],
+              ['Leg press calf raise', '4×12–20']]],
+            ['Core', [['Bird dog', '3×10 / side'], ['Side plank', '3×30–45 s / side']]],
+            ['Post-session mobility', [
+              ['Couch stretch', '2×30 s / side'], ['Frog stretch', '2×30 s'],
+              ['Hamstring stretch', '2×30 s / side'], ['Hip flexor stretch', '2×30 s / side']]]
+          ],
+          notes: ['If the reverse lunge is uncomfortable, swap it for Leg Press — 3×10.'] },
+
+        { title: 'Plyometrics + run', tag: 'Power', type: 'lift', note: 'Power + running + mobility',
+          blocks: [
+            ['Warm-up / mobility', [
+              ['Easy jog', '3–5 min'], ['Ankle rocks', '10 / side'], ['Leg swings', '10 / side'],
+              ['Hip CARs', '5 / side'], ["World's Greatest Stretch", '5 / side'],
+              ['Glute bridge', '2×10'], ['Calf raises', '2×15'], ['A-skips', '2×15–20 m']]],
+            ['Power', [
+              ['Pogo jumps', '3×15–20'], ['Squat jump', '3×5'], ['Broad jump', '3×4'],
+              ['Low box jump', '3×4–5'], ['Skater bounds', '2×6 / side']]],
+            ['Run', [
+              ['Week 5', '5 km'], ['Week 6', '6 km'], ['Week 7', '7 km'],
+              ['Week 8', '5 km', 'Deload.']]],
+            ['Post-session mobility', [
+              ['Couch stretch', '2×30 s / side'], ['Frog stretch', '2×30 s'],
+              ['Supine hamstring stretch', '2×30 s / side'], ['Calf stretch', '2×30 s / side'],
+              ['90/90 stretch', '2×30 s / side'], ['Half-kneeling T-spine rotation', '2×8 / side'],
+              ['90/90 breathing', '2–3 min']]]
+          ],
+          notes: ['Rest ~60–90 sec between plyometric sets.',
+                  'Power, not exhaustion. Quiet, controlled landings.',
+                  'Keep the run conversational — this block rebuilds running capacity, it is not a race.'] },
+
+        { title: 'Long Zone 2 cycling', tag: 'Aerobic', type: 'rest', note: 'Aerobic base + recovery',
+          lead: ['Zone 2 · long ride', 'Comfortable, conversational pace throughout.'],
+          blocks: [
+            ['Distance by week', [
+              ['Week 5', '40 km'], ['Week 6', '45 km'], ['Week 7', '50 km'],
+              ['Week 8', '35–40 km', 'Deload.']]],
+            ['Finish · 15–20 min', [
+              ['Frog stretch'], ['Couch stretch'], ['Hamstring stretch'], ['Calf stretch'],
+              ['90/90 hip stretch'], ['Thoracic rotation'], ['Light shoulder mobility']]]
+          ] }
+      ],
+      progression: [
+        ['Week 5 · Reintroduce', 'RPE 7', 'Plyo low volume · Run 5 km · Bike 40 km.'],
+        ['Week 6 · Build', 'RPE 7–7.5', 'Improve output · Run 6 km · Bike 45 km.'],
+        ['Week 7 · Strongest', 'RPE 8', 'Highest quality plyo volume · Run 7 km · Bike 50 km.'],
+        ['Week 8 · Deload', 'RPE 6–7', 'Cut lifting sets 25–35% · Plyo 50–60% volume · Run 5 km · Bike 35–40 km.']
+      ],
+      rules: {
+        title: 'Non-negotiables',
+        items: [
+          'Quality reps over ego lifting.',
+          'Plyometrics stay explosive and controlled — not conditioning circuits.',
+          'Mobility is a session, not an afterthought.',
+          'Zone 2 stays easy enough for conversation.',
+          'Progress load or reps only when recovery and technique support it.',
+          'Week 8 is a deload, so the next block starts fresh.'
+        ]
+      },
+      load: {
+        title: 'Load progression',
+        items: [
+          'Hit the top of the rep range on every set with clean form at the target RPE? Add a little load next time.',
+          'Reps below the top of the range? Keep the load and build reps.',
+          'Do not increase weight just because the calendar says so.',
+          'No failure training during this block.'
+        ]
+      },
+      outcome: 'By the end of Week 8 — <b>strength ↑ · hypertrophy volume ↑ · running tolerance ↑ · aerobic capacity ↑ · explosive power ↑ · mobility and control ↑ · training capacity ↑</b>',
+      colophon: '<b>No failure.</b> Keep roughly 2–3 good reps in reserve on most work across this block.'
     }
+  ];
 
-    // Namespaced so two clients on one device keep separate progress.
-    var KEY = 'restore-phase1-v1' + (clientName ? ':' + clientName.toLowerCase() : '');
-    var TOTAL = 28;
-    var SLOTS = [
-      { name: 'Upper A', lift: true },
-      { name: 'Lower A', lift: true },
-      { name: 'Rest', lift: false },
-      { name: 'Upper B', lift: true },
-      { name: 'Lower B', lift: true },
-      { name: 'Recovery cardio', lift: false },
-      { name: 'Cycling', lift: false }
-    ];
+  var TOTAL = 28;
 
-    var state = { start: null, done: {} };
+  /* ---------- Per-client personalisation from the link ---------- */
+  var params = new URLSearchParams(location.search);
+  var clientName = (params.get('client') || '').trim().slice(0, 40);
+  var startParam = /^\d{4}-\d{2}-\d{2}$/.test(params.get('start') || '') ? params.get('start') : null;
+  if (clientName) document.title = clientName + ' — RESTORE → REBUILD';
 
-    function load() {
-      try {
-        var raw = localStorage.getItem(KEY);
-        if (raw) {
-          var p = JSON.parse(raw);
-          state.start = p.start || null;
-          state.done = p.done || {};
-        }
-      } catch (e) { /* private mode — progress just won't persist */ }
-    }
-    function save() {
-      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
-    }
+  /* ---------- Storage ---------- */
+  var suffix = clientName ? ':' + clientName.toLowerCase() : '';
+  function keyFor(id) { return 'training:' + id + '-v1' + suffix; }
 
-    function toISO(d) {
-      return d.getFullYear() + '-' +
-        String(d.getMonth() + 1).padStart(2, '0') + '-' +
-        String(d.getDate()).padStart(2, '0');
-    }
-    function fromISO(s) { var p = s.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
-    function today() { var n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); }
-    function currentDay() {
-      return Math.round((today() - fromISO(state.start)) / 86400000) + 1;
-    }
+  function loadState(id) {
+    var s = { start: null, done: {} };
+    try {
+      var raw = localStorage.getItem(keyFor(id));
+      if (raw) { var p = JSON.parse(raw); s.start = p.start || null; s.done = p.done || {}; }
+    } catch (e) { /* private mode — progress just won't persist */ }
+    return s;
+  }
+  function saveState(id, s) {
+    try { localStorage.setItem(keyFor(id), JSON.stringify(s)); } catch (e) {}
+  }
 
-    load();
-    // The link's start date seeds a first visit only — never overwrites saved progress.
+  function toISO(d) {
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') +
+           '-' + String(d.getDate()).padStart(2, '0');
+  }
+  function fromISO(s) { var p = s.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function today() { var n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); }
+
+  /* ---------- Tiny DOM helper ---------- */
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    if (attrs) Object.keys(attrs).forEach(function (k) {
+      if (k === 'html') n.innerHTML = attrs[k];
+      else if (k === 'text') n.textContent = attrs[k];
+      else if (attrs[k] !== null && attrs[k] !== false) n.setAttribute(k, attrs[k]);
+    });
+    (kids || []).forEach(function (c) { if (c) n.appendChild(c); });
+    return n;
+  }
+
+  /* ---------- Build one phase ---------- */
+  function buildPhase(phase, index) {
+    var state = loadState(phase.id);
     if (!state.start) state.start = startParam || toISO(today());
 
-    var els = {
-      day: document.getElementById('c-day'),
-      done: document.getElementById('c-done'),
-      left: document.getElementById('c-left'),
-      week: document.getElementById('c-week'),
-      bar: document.getElementById('bar'),
-      weeks: document.getElementById('weeks'),
-      start: document.getElementById('startDate'),
-      reset: document.getElementById('reset')
-    };
-    var navLinks = Array.prototype.slice.call(document.querySelectorAll('.daynav a'));
-    var weekCards = Array.prototype.slice.call(document.querySelectorAll('.wk'));
-    var cells = [];
+    var root = el('section', { class: 'phase', id: phase.id });
+    if (index !== 0) root.hidden = true;
 
-    function buildCalendar() {
-      var frag = document.createDocumentFragment();
-      for (var w = 0; w < 4; w++) {
-        var row = document.createElement('div');
-        row.className = 'week';
-        for (var i = 0; i < 7; i++) {
-          var n = w * 7 + i + 1;
-          var b = document.createElement('button');
-          b.type = 'button';
-          b.className = 'cell' + (SLOTS[i].lift ? ' lift' : '');
-          b.dataset.n = n;
-          b.innerHTML = '<b>' + n + '</b><i></i>';
-          row.appendChild(b);
-          cells.push(b);
-        }
-        frag.appendChild(row);
+    /* Masthead */
+    var mast = el('header', { class: 'masthead' }, [
+      el('p', { class: 'eyebrow', text: 'Training program · Phase ' + phase.numeral }),
+      el('h1', { class: 'wordmark', text: phase.name }),
+      el('p', { class: 'standfirst', text: phase.standfirst })
+    ]);
+    if (clientName) {
+      mast.appendChild(el('p', { class: 'client', html: 'Prepared for <b></b>' }));
+      mast.querySelector('.client b').textContent = clientName;
+    }
+    var dl = el('dl', { class: 'stats' });
+    phase.stats.forEach(function (s) {
+      dl.appendChild(el('div', null, [el('dt', { text: s[0] }), el('dd', { text: s[1] })]));
+    });
+    mast.appendChild(dl);
+    root.appendChild(mast);
+
+    /* Day nav */
+    var navUl = el('ul');
+    phase.days.forEach(function (d, i) {
+      navUl.appendChild(el('li', null, [
+        el('a', { href: '#' + phase.id + '-d' + (i + 1), 'data-slot': i + 1, text: 'Day ' + (i + 1) })
+      ]));
+    });
+    root.appendChild(el('nav', { class: 'daynav', 'aria-label': 'Jump to a session' }, [navUl]));
+
+    /* Tracker */
+    var counts = el('div', { class: 'counts' });
+    var refs = {};
+    [['day', 'Day of 28'], ['done', 'Completed'], ['left', 'Remaining'], ['week', 'Week']]
+      .forEach(function (c) {
+        var n = el('span', { class: 'count-n', text: '0' });
+        refs[c[0]] = n;
+        counts.appendChild(el('div', null, [n, el('span', { class: 'count-l', text: c[1] })]));
+      });
+
+    var startInput = el('input', { type: 'date', value: state.start });
+    var barFill = el('span');
+    var weeksWrap = el('div');
+    var resetBtn = el('button', { class: 'reset', type: 'button', text: 'Reset progress' });
+
+    var dow = el('div', { class: 'dow', 'aria-hidden': 'true' });
+    for (var i = 1; i <= 7; i++) dow.appendChild(el('span', { text: String(i) }));
+
+    var cells = [];
+    for (var w = 0; w < 4; w++) {
+      var row = el('div', { class: 'week' });
+      for (var j = 0; j < 7; j++) {
+        var n = w * 7 + j + 1;
+        var b = el('button', {
+          type: 'button',
+          class: 'cell' + (phase.days[j].type === 'lift' ? ' lift' : ''),
+          'data-n': n
+        }, [el('b', { text: String(n) }), el('i')]);
+        row.appendChild(b);
+        cells.push(b);
       }
-      els.weeks.appendChild(frag);
+      weeksWrap.appendChild(row);
+    }
+
+    var tracker = el('section', { class: 'tracker' }, [
+      el('h2', { class: 'rubric', text: 'Your 28 days' }),
+      el('div', { class: 'tracker-top' }, [
+        counts,
+        el('label', { class: 'startline', text: 'Started' }, [startInput])
+      ]),
+      el('div', { class: 'bar' }, [barFill]),
+      el('div', { class: 'cal' }, [dow, weeksWrap]),
+      el('div', { class: 'legend' }, [
+        el('span', null, [el('i', { class: 'lift' }), document.createTextNode('Training session')]),
+        el('span', null, [el('i'), document.createTextNode('Mobility · cardio')]),
+        resetBtn
+      ])
+    ]);
+    root.appendChild(tracker);
+
+    /* Week at a glance */
+    var glist = el('div', { class: 'glance-list' });
+    phase.days.forEach(function (d, i) {
+      glist.appendChild(el('a', { href: '#' + phase.id + '-d' + (i + 1) }, [
+        el('span', { class: 'gl-day', text: 'Day ' + (i + 1) }),
+        el('span', { class: 'gl-name', text: d.title }),
+        el('span', { class: 'gl-note', text: d.note || '' })
+      ]));
+    });
+    root.appendChild(el('section', { class: 'glance' }, [
+      el('h2', { class: 'rubric', text: 'The week at a glance' }), glist
+    ]));
+
+    /* Days */
+    var daysWrap = el('div', { class: 'days' });
+    phase.days.forEach(function (d, i) {
+      var sec = el('section', {
+        class: 'day' + (d.type === 'rest' ? ' rest' : ''),
+        id: phase.id + '-d' + (i + 1)
+      });
+      sec.appendChild(el('div', { class: 'day-head' }, [
+        el('h2', { class: 'day-name', text: 'Day ' + (i + 1) }),
+        el('span', { class: 'day-tag', text: d.tag })
+      ]));
+      if (d.lead) {
+        sec.appendChild(el('p', { class: 'lead' }, [
+          el('b', { text: d.lead[0] }), el('span', { text: d.lead[1] })
+        ]));
+      }
+      (d.blocks || []).forEach(function (blk) {
+        var ul = el('ul', { class: 'ex' });
+        blk[1].forEach(function (it) {
+          var li = el('li', null, [el('span', { class: 'nm', text: it[0] })]);
+          if (it[1]) li.appendChild(el('span', { class: 'rx', text: it[1] }));
+          if (it[2]) li.appendChild(el('span', { class: 'cue', text: it[2] }));
+          ul.appendChild(li);
+        });
+        sec.appendChild(el('div', { class: 'block' }, [
+          el('h3', { class: 'block-label', text: blk[0] }), ul
+        ]));
+      });
+      if (d.notes) {
+        var nul = el('ul', { class: 'notes' });
+        d.notes.forEach(function (t) { nul.appendChild(el('li', { text: t })); });
+        sec.appendChild(el('div', { class: 'block' }, [
+          el('h3', { class: 'block-label', text: 'Session notes' }), nul
+        ]));
+      }
+      if (d.type === 'lift') {
+        sec.appendChild(el('div', { class: 'log' }, [
+          el('h3', { class: 'block-label', text: 'Log' }),
+          el('div', { class: 'log-lines' }, [el('span'), el('span'), el('span')])
+        ]));
+      }
+      daysWrap.appendChild(sec);
+    });
+    root.appendChild(daysWrap);
+
+    /* Progression */
+    var weeksGrid = el('div', { class: 'weeks' });
+    var wkCards = [];
+    phase.progression.forEach(function (p) {
+      var card = el('div', { class: 'wk' }, [
+        el('div', { class: 'wk-top' }, [
+          el('span', { class: 'wk-n', text: p[0] }),
+          el('span', { class: 'rpe', text: p[1] })
+        ]),
+        el('p', { text: p[2] })
+      ]);
+      wkCards.push(card);
+      weeksGrid.appendChild(card);
+    });
+    root.appendChild(el('section', { class: 'progression' }, [
+      el('h2', { class: 'rubric', text: 'Weekly progression' }), weeksGrid
+    ]));
+
+    /* Closing */
+    var closing = el('section', { class: 'closing' });
+    var hasClosing = false;
+    [phase.rules, phase.load].forEach(function (grp) {
+      if (!grp) return;
+      hasClosing = true;
+      var ul = el('ul');
+      grp.items.forEach(function (t) { ul.appendChild(el('li', { text: t })); });
+      closing.appendChild(el('div', { class: 'rules' }, [
+        el('h3', { text: grp.title }), ul
+      ]));
+    });
+    if (phase.outcome) {
+      hasClosing = true;
+      closing.appendChild(el('p', { class: 'outcome', html: phase.outcome }));
+    }
+    if (phase.colophon) {
+      hasClosing = true;
+      closing.appendChild(el('p', { class: 'colophon', html: phase.colophon }));
+    }
+    if (hasClosing) {
+      closing.insertBefore(el('h2', { class: 'rubric', text: 'Block reference' }), closing.firstChild);
+      root.appendChild(closing);
+    }
+
+    /* ---------- Behaviour ---------- */
+    var navLinks = Array.prototype.slice.call(navUl.querySelectorAll('a'));
+
+    function currentDay() {
+      return Math.round((today() - fromISO(state.start)) / 86400000) + 1;
     }
 
     function render() {
@@ -746,136 +743,142 @@
       Object.keys(state.done).forEach(function (k) { if (state.done[k]) doneCount++; });
 
       cells.forEach(function (b) {
-        var n = Number(b.dataset.n);
-        var slot = SLOTS[(n - 1) % 7];
+        var n = Number(b.getAttribute('data-n'));
+        var d = phase.days[(n - 1) % 7];
         var isDone = !!state.done[n];
         b.classList.toggle('done', isDone);
         b.classList.toggle('today', n === cur);
         b.classList.toggle('future', n > cur);
         b.setAttribute('aria-pressed', isDone ? 'true' : 'false');
         b.setAttribute('aria-label',
-          'Day ' + n + ', ' + slot.name + ', ' + (isDone ? 'completed' : 'not completed'));
+          'Day ' + n + ', ' + d.title + ', ' + (isDone ? 'completed' : 'not completed'));
       });
 
       var shown = Math.min(Math.max(cur, 1), TOTAL);
       var wk = Math.ceil(shown / 7);
+      var outside = cur < 1 || cur > TOTAL;
 
-      els.day.textContent = cur < 1 ? 'Not started' : (cur > TOTAL ? 'Finished' : shown);
-      els.day.classList.toggle('muted', cur < 1 || cur > TOTAL);
-      els.done.textContent = doneCount;
-      els.left.textContent = TOTAL - doneCount;
-      els.week.textContent = wk;
-      els.bar.style.width = (doneCount / TOTAL * 100) + '%';
+      refs.day.textContent = cur < 1 ? 'Not started' : (cur > TOTAL ? 'Finished' : shown);
+      refs.day.classList.toggle('muted', outside);
+      refs.done.textContent = doneCount;
+      refs.left.textContent = TOTAL - doneCount;
+      refs.week.textContent = wk;
+      barFill.style.width = (doneCount / TOTAL * 100) + '%';
 
-      weekCards.forEach(function (card, j) {
-        card.classList.toggle('current', cur >= 1 && cur <= TOTAL && j === wk - 1);
-      });
+      wkCards.forEach(function (c, k) { c.classList.toggle('current', !outside && k === wk - 1); });
 
-      var slotToday = (cur >= 1 && cur <= TOTAL) ? ((cur - 1) % 7) + 1 : 0;
+      var slot = outside ? 0 : ((cur - 1) % 7) + 1;
       navLinks.forEach(function (a) {
-        a.classList.toggle('is-today', Number(a.dataset.slot) === slotToday);
+        a.classList.toggle('is-today', Number(a.getAttribute('data-slot')) === slot);
       });
+
+      if (onProgress) onProgress(phase.id, doneCount);
     }
 
-    buildCalendar();
-    els.start.value = state.start;
-    render();
-
-    els.weeks.addEventListener('click', function (e) {
+    weeksWrap.addEventListener('click', function (e) {
       var b = e.target.closest ? e.target.closest('.cell') : null;
       if (!b) return;
-      state.done[b.dataset.n] = !state.done[b.dataset.n];
-      save();
+      var n = b.getAttribute('data-n');
+      state.done[n] = !state.done[n];
+      saveState(phase.id, state);
       render();
     });
-
-    els.start.addEventListener('change', function () {
-      if (!els.start.value) return;
-      state.start = els.start.value;
-      save();
+    startInput.addEventListener('change', function () {
+      if (!startInput.value) return;
+      state.start = startInput.value;
+      saveState(phase.id, state);
       render();
     });
-
-    els.reset.addEventListener('click', function () {
-      if (!window.confirm('Clear every completed day? This cannot be undone.')) return;
+    resetBtn.addEventListener('click', function () {
+      if (!window.confirm('Clear every completed day in Phase ' + phase.numeral + '? This cannot be undone.')) return;
       state.done = {};
-      save();
+      saveState(phase.id, state);
       render();
     });
 
-    // Highlight the session currently in view.
-    var byId = {};
-    navLinks.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
-    var sections = Array.prototype.slice.call(document.querySelectorAll('.day'));
-    var visible = new Set();
-
-    function paint() {
-      var current = sections.filter(function (s) { return visible.has(s.id); })[0];
-      navLinks.forEach(function (a) {
-        a.setAttribute('aria-current', current && byId[current.id] === a ? 'true' : 'false');
-      });
-    }
-
+    /* Scroll-spy */
+    var sections = Array.prototype.slice.call(daysWrap.querySelectorAll('.day'));
+    var visible = {};
     if ('IntersectionObserver' in window) {
       var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) visible.add(e.target.id);
-          else visible.delete(e.target.id);
+        entries.forEach(function (en) { visible[en.target.id] = en.isIntersecting; });
+        var active = sections.filter(function (s) { return visible[s.id]; })[0];
+        navLinks.forEach(function (a) {
+          a.setAttribute('aria-current',
+            active && a.getAttribute('href') === '#' + active.id ? 'true' : 'false');
         });
-        paint();
       }, { rootMargin: '-80px 0px -55% 0px' });
       sections.forEach(function (s) { io.observe(s); });
     }
-  })();
-</script>
 
-<script>
-  (function () {
-    var head = document.head;
-    var sel = 'meta[name^="apple-"],meta[name="mobile-web-app-capable"],' +
-              'meta[name="theme-color"],link[rel="apple-touch-icon"],link[rel="icon"]';
-    document.querySelectorAll(sel).forEach(function (el) {
-      if (el.parentNode !== head) head.appendChild(el);
-    });
+    return { root: root, render: render };
+  }
 
-    // Keep the browser/OS chrome colour in step with the active theme.
-    var themeMeta = document.querySelector('meta[name="theme-color"]');
-    function syncTheme() {
-      if (!themeMeta) return;
-      var paper = getComputedStyle(document.documentElement)
-        .getPropertyValue('--paper').trim();
-      if (paper) themeMeta.setAttribute('content', paper);
-    }
-    syncTheme();
-    if (window.matchMedia) {
-      var mq = window.matchMedia('(prefers-color-scheme: dark)');
-      if (mq.addEventListener) mq.addEventListener('change', syncTheme);
-    }
-    new MutationObserver(syncTheme).observe(document.documentElement, {
-      attributes: true, attributeFilter: ['data-theme']
-    });
+  /* ---------- Assemble ---------- */
+  var shell = document.getElementById('shell');
+  var tabsWrap = el('div', { class: 'phases', role: 'tablist', 'aria-label': 'Training phase' });
+  shell.appendChild(tabsWrap);
 
-    // Web app manifest, for platforms that accept an inline one.
+  var built = [];
+  var tabs = [];
+  var onProgress = null;
+
+  PROGRAM.forEach(function (phase, i) {
+    var meta = el('span', { class: 'ptab-meta', text: '0 / 28 days' });
+    var tab = el('button', {
+      class: 'ptab', type: 'button', role: 'tab',
+      'aria-selected': i === 0 ? 'true' : 'false',
+      'aria-controls': phase.id
+    }, [
+      el('span', { class: 'ptab-n', text: 'Phase ' + phase.numeral }),
+      el('span', { class: 'ptab-name', text: phase.name }),
+      meta
+    ]);
+    tab.__meta = meta;
+    tabs.push(tab);
+    tabsWrap.appendChild(tab);
+  });
+
+  onProgress = function (id, done) {
+    var idx = PROGRAM.map(function (p) { return p.id; }).indexOf(id);
+    if (idx < 0) return;
+    tabs[idx].__meta.textContent = done + ' / 28 days · ' + PROGRAM[idx].weeks;
+  };
+
+  PROGRAM.forEach(function (phase, i) {
+    var p = buildPhase(phase, i);
+    built.push(p);
+    shell.appendChild(p.root);
+  });
+
+  function show(i) {
+    built.forEach(function (p, k) { p.root.hidden = k !== i; });
+    tabs.forEach(function (t, k) { t.setAttribute('aria-selected', k === i ? 'true' : 'false'); });
+    try { localStorage.setItem('training:phase' + suffix, String(i)); } catch (e) {}
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }
+  tabs.forEach(function (t, i) { t.addEventListener('click', function () { show(i); }); });
+
+  built.forEach(function (p) { p.render(); });
+
+  /* Open on the phase the user was last in, or the one pointed at by the link. */
+  var wanted = 0;
+  var hash = (location.hash || '').replace('#', '');
+  var byHash = PROGRAM.map(function (p) { return p.id; }).indexOf(hash.split('-')[0]);
+  if (byHash >= 0) wanted = byHash;
+  else {
     try {
-      var icon = document.querySelector('link[rel="icon"]');
-      var manifest = {
-        name: 'Phase I - RESTORE',
-        short_name: 'RESTORE',
-        display: 'standalone',
-        orientation: 'portrait',
-        background_color: '#FBFAF7',
-        theme_color: '#3D5A54',
-        start_url: location.pathname + location.search,
-        scope: location.pathname,
-        icons: icon ? [{ src: icon.href, sizes: '512x512', type: 'image/png', purpose: 'any' }] : []
-      };
-      var blob = new Blob([JSON.stringify(manifest)], { type: 'application/manifest+json' });
-      var link = document.createElement('link');
-      link.rel = 'manifest';
-      link.href = URL.createObjectURL(blob);
-      head.appendChild(link);
-    } catch (e) { /* iOS installs from the apple-touch-icon above regardless */ }
-  })();
+      var saved = localStorage.getItem('training:phase' + suffix);
+      if (saved !== null && PROGRAM[+saved]) wanted = +saved;
+    } catch (e) {}
+  }
+  show(wanted);
+  if (byHash >= 0 && hash.indexOf('-d') > -1) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
 </script>
+
 </body>
 </html>
